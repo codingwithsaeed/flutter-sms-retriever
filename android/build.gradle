@@ -28,7 +28,7 @@ android {
     if (project.android.hasProperty("namespace")) {
         namespace 'me.arsam.sms_retriever'
     }
-    compileSdkVersion 29
+    compileSdkVersion 31
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -44,6 +44,7 @@ android {
     }
     defaultConfig {
         minSdkVersion 19
+        targetSdkVersion 31
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     lintOptions {
